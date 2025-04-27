@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>giv-boutique_en_ligne</title>
+  
   <link href="feuilledestyle.css" rel="stylesheet" type="text/css" />
 </head>
 <header>
@@ -13,6 +13,7 @@
   <h1>Découvrez nos nouvelles offres dès maintenant!</h1>
   <p>Explorez les différentes pages:</p>
   <ul>
+    <title>giv-boutique_en_ligne</title>
     <li><a href="vetements_et_accessoires.html">vêtements & accessoires</a></li>
     <li><a href="jeux.html">Jeux</a></li>
     <li><a href="nouveautes.html">nouveautés</a></li>
