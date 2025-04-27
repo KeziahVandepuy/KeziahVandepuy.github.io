@@ -10,6 +10,7 @@
     <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
 </header>
 <body>
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fgiv-logo&psig=AOvVaw34SmlT_gsWtW-M4ClCnJEy&ust=1745840263872000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjP9JiQ-IwDFQAAAAAdAAAAABAZ" alt=logo GIV/>
   <h1>Découvrez nos nouvelles offres dès maintenant!</h1>
   <p>Explorez les différentes pages:</p>
   <ul>
