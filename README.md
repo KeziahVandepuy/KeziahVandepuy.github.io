@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
-  <title>GIV-online store</title>
-</head>
-<body>
-  <!-- Header with logo -->
-  <header>
-    <img src="images/screenshot_2025-04-27.png" alt="Website Logo" style="height: 80px;">
-  </header>
-
-  <!-- Main content -->
-  <h1>Discover our new offers now!</h1>
-  <p>Explore the different pages:</p>
-  <ul>
-    <li><a href="clothing_and_accessories.html">Clothing & Accessories</a></li>
-    <li><a href="games.html">Games</a></li>
-    <li><a href="new_arrivals.html">New Arrivals</a></li>
-  </ul>
-
-  <!-- Footer -->
-  <footer>
-    <ul>
-      <li><a href="legal_mentions.html">Legal Mentions</a></li>
-      <li><a href="privacy_policy.html">Privacy Policy</a></li>
-      <li><a href="FAQ.html">FAQ</a></li>
-    </ul>
-  </footer>
-</body>
-</html>
+<p align="center">
+   <a href="https://github.com/AdilShamim8/100-Simple-Websites"><img src="https://img.shields.io/github/stars/AdilShamim8/100-Simple-Websites?style=social" alt="GitHub Stars"></a>
+   <a href="https://github.com/AdilShamim8/100-Simple-Websites"><img src="https://img.shields.io/github/forks/AdilShamim8/100-Simple-Websites?style=social" alt="GitHub Forks"></a>
+   <img src="https://img.shields.io/badge/HTML%20%7C%20CSS%20%7C%20JavaScript-blueviolet" alt="Tech Stack">
+   <img src="https://img.shields.io/badge/Beginner%20Friendly-%F0%9F%92%AA-success" alt="Beginner Friendly">
+   <br>
+   <a href="https://github.com/AdilShamim8/100-Simple-Websites"><strong>🌟 Explore the Projects Now 🚀</strong></a>
+</p>
