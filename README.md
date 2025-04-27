@@ -3,7 +3,7 @@
  <header>
         <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
     </header>
-    <head>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>GIV-boutique en ligne</title>
