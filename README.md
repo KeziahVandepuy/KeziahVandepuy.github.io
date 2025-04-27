@@ -3,27 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  
-  <link href="feuilledestyle.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <title>My Website</title>
 </head>
-<header>
-    <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
-</header>
 <body>
-  git add images/Capture d'écran 2025-04-27 134501.png
-  git commit -m "Capture d'écran 2025-04-27 134501.png"
-  git push origin main
-  <h1>Découvrez nos nouvelles offres dès maintenant!</h1>
-  <p>Explorez les différentes pages:</p>
+  <!-- Header with logo -->
+  <header>
+    <img src="images/screenshot_2025-04-27.png" alt="Website Logo" style="height: 80px;">
+  </header>
+
+  <!-- Main content -->
+  <h1>Discover our new offers now!</h1>
+  <p>Explore the different pages:</p>
   <ul>
-    <li><a href="vetements_et_accessoires.html">vêtements & accessoires</a></li>
-    <li><a href="jeux.html">Jeux</a></li>
-    <li><a href="nouveautes.html">nouveautés</a></li>
+    <li><a href="clothing_and_accessories.html">Clothing & Accessories</a></li>
+    <li><a href="games.html">Games</a></li>
+    <li><a href="new_arrivals.html">New Arrivals</a></li>
   </ul>
+
+  <!-- Footer -->
   <footer>
-    <li><a href="mentions_legales.html">Mentions Légales</a></li>
-    <li><a href="politique_de_confidentialite.html">Politique de Confidentialité</a></li>
-    <li><a href="FAQ.html">FAQ</a></li>
+    <ul>
+      <li><a href="legal_mentions.html">Legal Mentions</a></li>
+      <li><a href="privacy_policy.html">Privacy Policy</a></li>
+      <li><a href="FAQ.html">FAQ</a></li>
+    </ul>
   </footer>
 </body>
 </html>
