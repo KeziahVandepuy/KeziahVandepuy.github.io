@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="stylesheet.css" rel="stylesheet" type="text/css" />
-  <title>My Website</title>
+  <title>GIV-online store</title>
 </head>
 <body>
   <!-- Header with logo -->
