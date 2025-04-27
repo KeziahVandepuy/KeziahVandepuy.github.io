@@ -7,7 +7,7 @@
   <link href="feuilledestyle.css" rel="stylesheet" type="text/css" />
 </head>
 <header>
-  <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
+    <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
 </header>
 <body>
   <h1>Découvrez nos nouvelles offres dès maintenant!</h1>
