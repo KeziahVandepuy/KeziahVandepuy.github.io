@@ -1,73 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GIV-online shop</title>
-  <style>
-    /* Background gradient for the site */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, fuchsia, orange);
-      color: #000;
-      text-align: center;
-    }
-
-    header {
-      padding: 20px;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    h1 {
-      margin-top: 20px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li {
-      display: inline-block;
-      margin: 0 10px;
-    }
-
-    ul li a {
-      text-decoration: none;
-      color: #000;
-      font-weight: bold;
-    }
-
-    footer {
-      margin-top: 20px;
-    }
-
-    footer ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    footer ul li {
-      display: inline-block;
-      margin: 0 10px;
-    }
-
-    footer ul li a {
-      text-decoration: none;
-      color: #000;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width">
+  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <title>My Website</title>
 </head>
 <body>
   <!-- Header with logo -->
   <header>
-    <img src="images/screenshot_2025-04-27.png" alt="Website Logo">
+    <img src="images/screenshot_2025-04-27.png" alt="Website Logo" style="height: 80px;">
   </header>
 
   <!-- Main content -->
