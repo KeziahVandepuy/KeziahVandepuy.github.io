@@ -17,5 +17,10 @@
     <li><a href="jeux.html">Jeux</a></li>
     <li><a href="nouveautes.html">nouveautés</a></li>
   </ul>
+  <footer>
+    <li><a href="mentions_legales.html">Mentions Légales</a></li>
+    <li><a href="politique_de_confidentialite.html">Politique de Confidentialité</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
+  </footer>
 </body>
 </html>
