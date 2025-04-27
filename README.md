@@ -10,7 +10,9 @@
     <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
 </header>
 <body>
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fgiv-logo&psig=AOvVaw34SmlT_gsWtW-M4ClCnJEy&ust=1745840263872000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjP9JiQ-IwDFQAAAAAdAAAAABAZ" alt=logo GIV/>
+  git add images/Capture d'écran 2025-04-27 134501.png
+  git commit -m "Capture d'écran 2025-04-27 134501.png"
+  git push origin main
   <h1>Découvrez nos nouvelles offres dès maintenant!</h1>
   <p>Explorez les différentes pages:</p>
   <ul>
