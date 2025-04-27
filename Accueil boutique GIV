@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <header>
+        <img src="chemin/vers/ton-logo.png" alt="Logo de mon site" style="height: 80px;">
+    </header>
   <h1>Découvrez nos nouvelles offres dès maintenant!</h1>
   <p>Explorez les différentes pages:</p>
   <ul>
