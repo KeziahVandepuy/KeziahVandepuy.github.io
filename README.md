@@ -5,6 +5,62 @@
   <meta name="viewport" content="width=device-width">
   <link href="stylesheet.css" rel="stylesheet" type="text/css" />
   <title>My Website</title>
+  <style>
+    /* Style pour un fond d'écran dégradé */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, fuchsia, orange);
+      color: #000;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    footer ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
 </head>
 <body>
   <!-- Header with logo -->
