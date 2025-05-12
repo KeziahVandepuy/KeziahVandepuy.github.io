@@ -7,6 +7,13 @@
   <title>GIV-Accueil</title>
   <link href="feuilledestyle.css" rel="stylesheet" type="text/css" />
 </head>
+<style>
+  body {
+    background-image: url('chemin/vers/ton-image.jpg');
+    background-size: cover;        /* Pour que l'image couvre tout l'écran */
+    background-repeat: no-repeat;  /* Pour éviter la répétition */
+    background-position: center;   /* Centrer l'image */
+  }
 
 <body>
     <header>
