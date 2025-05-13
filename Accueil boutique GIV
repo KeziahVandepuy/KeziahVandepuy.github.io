@@ -10,9 +10,10 @@
 <style>
   body {
     background-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-premium%2Fmouvement-abstrait-ligne-futuriste-fond-clair-au-neon-fond-ecran-site-web-technologie-moderne-concept-science-numerique-toile-fond-art-futur_16069491.htm&psig=AOvVaw2IV6otWw7BO_ek7ZDAhzbv&ust=1747164306789000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjmirHUno0DFQAAAAAdAAAAABAE.jpg;
-    background-size: cover;        /* Pour que l'image couvre tout l'écran */
-    background-repeat: no-repeat;  /* Pour éviter la répétition */
-    background-position: center;   /* Centrer l'image */
+    background-size: cover
+    background-repeat: no-repeat  
+    background-position: center
+
   }
 
 <body>
