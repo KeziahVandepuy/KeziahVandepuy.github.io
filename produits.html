@@ -3,46 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <title>Nos Produits – GIV Store</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> <!-- Si tu utilises un style global -->
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
       text-align: center;
     }
+
     .product-grid {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
     }
+
     .product-card {
       border: 1px solid #ccc;
       border-radius: 10px;
       padding: 10px;
       width: 220px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
+    .product-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
     .product-card img {
       width: 100%;
       height: auto;
     }
+
     .product-card h3 {
       margin: 10px 0 5px;
     }
+
     .product-card p {
       margin: 5px 0;
     }
+
     button {
       margin-top: 10px;
       padding: 8px 12px;
     }
   </style>
 </head>
+
 <body>
 
   <h1>Nos Produits</h1>
 
   <div class="product-grid">
+
     <div class="product-card">
       <img src="img/tshirt.jpg" alt="T-shirt GIV">
       <h3>T-shirt GIV</h3>
@@ -98,18 +112,8 @@
       <p>11,99 €</p>
       <button>Ajouter au panier</button>
     </div>
+
   </div>
 
 </body>
 </html>
-.product-card {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  width: 220px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.product-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
