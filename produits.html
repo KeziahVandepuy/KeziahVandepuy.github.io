@@ -10,9 +10,7 @@
       padding: 20px;
       text-align: center;
     }
-<a href="https://keziahvandepuy.github.io/" style="display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; text-decoration:none; border-radius:6px;">
-  Retour à l'accueil
-</a>
+
     .product-grid {
       display: flex;
       flex-wrap: wrap;
@@ -51,10 +49,27 @@
       padding: 8px 12px;
     }
   </style>
+  .btn-retour {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn-retour:hover {
+  background-color: #0056b3;
+}
 </head>
 
 <body>
-
+ <a href="https://keziahvandepuy.github.io/" class="btn-retour">
+    Retour à l'accueil
+  </a>
   <h1>Nos Produits</h1>
 
   <div class="product-grid">
