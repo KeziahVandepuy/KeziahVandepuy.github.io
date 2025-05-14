@@ -8,6 +8,20 @@
   <link href="feuilledestyle.css" rel="stylesheet" type="text/css" />
 </head>
 <style>
+a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
 </head>
 <body>
     <header>
