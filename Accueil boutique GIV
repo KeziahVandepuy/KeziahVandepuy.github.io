@@ -9,14 +9,11 @@
 </head>
 <style>
 a {
-  display: inline-block;
-  padding: 12px 20px;
+  display: inline-block
   background-color: #0000;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+  color:black;
   transition: background-color 0.3s ease;
+
 }
 <style>
 a:hover {
@@ -34,6 +31,10 @@ a:hover {
     <li><a href="jeux.html">Jeux</a></li>
     <li><a href="nouveautes.html">nouveautés</a></li>
   </ul>
+<class=<Clothing & Accessories>>
+<class=<Games>>
+<class=<New Arrivals>>
+<class=<Produits GIV>>
 </body>
 
 </html>
