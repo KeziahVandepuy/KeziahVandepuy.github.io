@@ -2,136 +2,126 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Nos Produits – GIV Store</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Produits GIV</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
+      background-color: #f4e9da; /* beige un peu doux */
+      font-family: sans-serif;
       text-align: center;
+      margin: 0;
+      padding: 15px;
     }
 
-    .product-grid {
+    h1 {
+      margin-bottom: 25px;
+    }
+
+    .produits {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 30px;
+      gap: 25px;
+      margin-top: 20px;
     }
 
-    .product-card {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 10px;
-      width: 220px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .boite-produit {
+      background: #fff;
+      border: solid 1px #ccc;
+      border-radius: 8px;
+      width: 210px;
+      padding: 12px;
+      transition: 0.4s;
     }
 
-    .product-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    .boite-produit:hover {
+     transform: scale(1.04); 
+     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     }
 
-    .product-card img {
+    .boite-produit img {
       width: 100%;
-      height: auto;
     }
 
-    .product-card h3 {
+    .boite-produit h3 {
       margin: 10px 0 5px;
+      font-size: 17px;
     }
 
-    .product-card p {
-      margin: 5px 0;
+    .boite-produit p {
+      font-size: 14px;
+      margin: 0;
     }
 
-    button {
+    .boite-produit button {
       margin-top: 10px;
-      padding: 8px 12px;
+      background: #000;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
     }
-    .btn-retour {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #00;
-  color: black;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 16px;
-}
 
-.btn-retour:hover {
-  background-color: #0056b3;
-}
+    /* bouton quand on passe dessus */
+    .boite-produit button:hover {
+      background: #444;
+    }
   </style>
- 
 </head>
-
 <body>
- <a href="https://keziahvandepuy.github.io/" class="btn-retour">
-    Retour à l'accueil
-  </a>
-  <h1>Nos Produits</h1>
 
-  <div class="product-grid">
+  <h1>Nos produits GIV</h1>
 
-    <div class="product-card">
+  <div class="produits">
+
+    <!-- Produit 1 -->
+    <div class="boite-produit">
       <img src="img/tshirt.jpg" alt="T-shirt GIV">
       <h3>T-shirt GIV</h3>
       <p>19,99 €</p>
       <button>Ajouter au panier</button>
     </div>
 
-    <div class="product-card">
+    <!-- Produit 2 -->
+    <div class="boite-produit">
       <img src="img/sweat.jpg" alt="Sweat GIV">
       <h3>Sweat GIV</h3>
       <p>34,99 €</p>
       <button>Ajouter au panier</button>
     </div>
 
-    <div class="product-card">
+    <!-- Produit 3 -->
+    <div class="boite-produit">
       <img src="img/casquette.jpg" alt="Casquette GIV">
       <h3>Casquette GIV</h3>
       <p>14,99 €</p>
       <button>Ajouter au panier</button>
     </div>
 
-    <div class="product-card">
+    <!-- Produit 4 -->
+    <div class="boite-produit">
       <img src="img/tote.jpg" alt="Tote Bag GIV">
-      <h3>Tote bag GIV</h3>
+      <h3>Tote Bag GIV</h3>
       <p>12,99 €</p>
       <button>Ajouter au panier</button>
     </div>
 
-    <div class="product-card">
+    <!-- Produit 5 -->
+    <div class="boite-produit">
       <img src="img/mug.jpg" alt="Mug GIV">
       <h3>Mug GIV</h3>
       <p>9,99 €</p>
       <button>Ajouter au panier</button>
     </div>
 
-    <div class="product-card">
+    <!-- Produit 6 -->
+    <div class="boite-produit">
       <img src="img/portecles.jpg" alt="Porte-clés GIV">
       <h3>Porte-clés GIV</h3>
       <p>4,99 €</p>
       <button>Ajouter au panier</button>
     </div>
 
-    <div class="product-card">
-      <img src="img/gourde.jpg" alt="Gourde GIV">
-      <h3>Gourde GIV</h3>
-      <p>15,99 €</p>
-      <button>Ajouter au panier</button>
-    </div>
-
-    <div class="product-card">
-      <img src="img/sac-cordon.jpg" alt="Sac à cordon GIV">
-      <h3>Sac à cordon GIV</h3>
-      <p>11,99 €</p>
-      <button>Ajouter au panier</button>
-    </div>
-
-  </div>
-
-</body>
-</html>
+    <!-- Produit 7 -->
+    <div class="boite-produit">
+      <img src="img/gourde
