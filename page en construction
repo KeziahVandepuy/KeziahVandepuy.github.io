@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page en construction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+            margin-top: 100px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 48px;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 20px;
+        }
+        .message {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            font-size: 24px;
+        }
+        .image {
+            margin-top: 30px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Page en Construction</h1>
+        <div class="message">
+            Nous travaillons sur cette page, revenez bientôt !
+        </div>
+        <img class="image" src="https://via.placeholder.com/100" alt="construction icon">
+        <p>Merci de votre patience !</p>
+    </div>
+</body>
+</html>
