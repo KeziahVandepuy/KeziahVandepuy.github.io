@@ -46,7 +46,18 @@
         nav ul li a:hover {
             color: #007BFF;
         }
-        main h1 a {
+        main {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        section {
+            width: 220px;
+            margin: 10px;
+        }
+        section h1 a, section h2 a {
             text-decoration: none;
             color: inherit;
         }
@@ -80,9 +91,12 @@
             <h1><a href="https://www.amazon.com" target="_blank">New Arrivals</a></h1>
             <p>Stay updated with our latest products and offers.</p>
         </section>
+
+        <section>
+            <h2><a href="produits.html">Products GIV</a></h2>
+            <p>Discover our complete collection of GIV clothing and accessories.</p>
+        </section>
     </main>
-    <h2><a href="produits.html" style="text-decoration: none; color: #333;">Products GIV</a></h2>
-    <p>Discover our complete collection of GIV clothing and accessories.</p>
 
     <footer style="position: fixed; bottom: 0; width: 100%; background-color: #f1f1f1; text-align: center; padding: 10px 0;">
         Mentions légales : GIV Limited, Paris, France
